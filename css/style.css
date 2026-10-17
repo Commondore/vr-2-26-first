@@ -41,3 +41,19 @@ body {
   font-size: 14px;
   color: gray;
 }
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.link {
+  padding: 14px;
+  border: 1px solid #ccc;
+  color: #000;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: #fff;
+  text-align: center;
+}
