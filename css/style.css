@@ -13,3 +13,31 @@ body {
   margin: 0 auto;
   padding: 40px 20px;
 }
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: #2e8377;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.profile-name {
+  margin: 0;
+  font-size: 22px;
+}
+.profile-bio {
+  font-size: 14px;
+  color: gray;
+}
