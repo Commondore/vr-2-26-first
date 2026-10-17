@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f7;
+}
+
+.page {
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
